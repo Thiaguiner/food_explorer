@@ -8,9 +8,16 @@
   --cor-4 : #750310;
   --cor-5:#C4C4CC;
   --cor-6:#0D1D25;
+  --cor-7:#000A0F;
+  --cor-8:#0D1D25;
 }
 body{
+  height: 100%;
   margin: 0px;
   padding:0px;
+    overflow-x: hidden; /* Desabilita a rolagem horizontal */
+   overflow-y: hidden;
+  
+  
   
 }

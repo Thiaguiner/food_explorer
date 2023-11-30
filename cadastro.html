@@ -3,34 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crie sua conta - Food Explorer</title>
-  <link rel="stylesheet" href="./assets/global/style.css">
+  <title>Cadastro - Food Explorer</title>
+  <link rel="stylesheet" href="/assets/global/style.css">
 </head>
-<body id="cadastro">
-  <div class="cadastro-bg container">
-  <div class="title">
-    <img src="./assets/img/Polygon 1.png" alt="">
-    <h1>Food Explorer</h1>
-  </div>
-  <div class="form-cadastro">
-    <form class="form" action="./">
-      <h1>Crie sua conta</h1>
-      <div class="name-form">
-      <label for="name">Seu nome</label>
-      <input type="text" name="name" id="name" placeholder="Exemplo: Joaquim Silva" required>
+<body>
+  <div class="bg-cadastro container">
+    <div class="title">
+      <h2>food explorer</h2>
+      <!-- <img src="/assets/img/Polygon 1.png" alt=""> -->
     </div>
-    <div class="email-form">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="Exemplo: seuemail@gmail.com" required>
+    <form class="form" action="#">
+      <h2>Crie sua conta</h2>
+      <div>
+      <label for="nome">Seu Nome</label>
+      <input type="text" name="nome" id="nome" placeholder="Exemplo: Maria Silva">
     </div>
-    <div class="senha-form">
-      <label for="password">Senha</label>
-      <input type="password" name="senha" id="senha" placeholder="No mínimo 6 caracteres" required>
+    <div>
+      <label for="email">Seu email</label>
+      <input type="email" name="email" id="email" placeholder="Exemplo: seuemail@gmail.com">
     </div>
+    <div>
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha" placeholder="No mínimo 6 caracteres">
+    </div>
+
+    <button class="btn">Criar conta</button>
+    <a href="#">Já tenho uma conta</a>
     </form>
-    <button class="btn">Criar Conta</button>
-    <a href="./login.html">Já tenho uma conta</a>
   </div>
-</div>
 </body>
 </html>
