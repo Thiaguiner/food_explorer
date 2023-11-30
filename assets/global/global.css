@@ -1,23 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
-:root{
-  --cor-0:#fff;
-  --cor-1 : #111111;
-  --cor-2 : #001119;
-  --cor-4 : #750310;
-  --cor-5:#C4C4CC;
-  --cor-6:#0D1D25;
-  --cor-7:#000A0F;
-  --cor-8:#0D1D25;
-}
 body{
-  height: 100%;
-  margin: 0px;
-  padding:0px;
-    overflow-x: hidden; /* Desabilita a rolagem horizontal */
-   overflow-y: hidden;
-  
-  
-  
+  margin: 0;
+  padding: 0;
 }

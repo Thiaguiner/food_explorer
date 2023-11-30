@@ -5,31 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro - Food Explorer</title>
   <link rel="stylesheet" href="/assets/global/style.css">
+  
 </head>
 <body>
-  <div class="bg-cadastro container">
-    <div class="title">
-      <h2>food explorer</h2>
-      <!-- <img src="/assets/img/Polygon 1.png" alt=""> -->
+  <main class="main-cadastro">
+    <div class="left-cadastro">
+      <h1>food explorer</h1>
     </div>
-    <form class="form" action="#">
-      <h2>Crie sua conta</h2>
-      <div>
-      <label for="nome">Seu Nome</label>
-      <input type="text" name="nome" id="nome" placeholder="Exemplo: Maria Silva">
+    <div class="right-cadastro">
+      <div class="card-cadastro">
+        <h1>Crie sua conta</h1>
+        <div class="textfield">
+          <label for="nome">Seu nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Exemplo: José Maria">
+        </div>
+        <div class="textfield">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="Exemplo: seuemail@gmail.com">
+        </div>
+        <div class="textfield">
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" id="senha" placeholder="No mínimo 6 caracteres">
+        </div>
+        <button class="btn-cadastro">Criar conta</button>
+        <a href="#">Já tenho uma conta</a>
+      </div>
     </div>
-    <div>
-      <label for="email">Seu email</label>
-      <input type="email" name="email" id="email" placeholder="Exemplo: seuemail@gmail.com">
-    </div>
-    <div>
-      <label for="senha">Senha</label>
-      <input type="password" name="senha" id="senha" placeholder="No mínimo 6 caracteres">
-    </div>
-
-    <button class="btn">Criar conta</button>
-    <a href="#">Já tenho uma conta</a>
-    </form>
-  </div>
+  </main>
 </body>
 </html>
