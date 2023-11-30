@@ -31,10 +31,25 @@
   margin: 90px 110px;
   border-radius: 5px;
 }
-.form h2 {
-  margin-top: 64px;
-  color: var(--cor-0);
-  text-align: center;
+.form{
+ gap: 20px; 
+ font: 400 1rem/1.5 "Poppins", sans-serif;
+ margin-bottom: 4px;
+
+}
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"]{
+font: 400 1rem/1.5 "roboto";
+background-color: var(--cor-6);
+padding:12px;
+border-radius: 4px;
+width: 100%;
+box-sizing: border-box;
+border-color: var(--cor-1);
+margin-bottom: 20px;
+}
+.form-cadastro h1{
   font-family: "Poppins";
   font-size: 32px;
   font-style: normal;
