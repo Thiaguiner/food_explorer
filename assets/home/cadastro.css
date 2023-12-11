@@ -83,11 +83,12 @@
   border-radius: 5px;
   background-color: #750310;
   color: var(--cor-b0);
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   cursor: pointer;
+  outline: none;
 }
 a {
   font-family: "Poppins";
